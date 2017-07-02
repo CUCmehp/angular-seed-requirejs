@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "description": "seed for lazy loading in AngularJS using Asynchronous Module Definitions with RequireJS.",
+  "main": "scripts/bootstrap.js",
+  "authors": [
+    "CUCmehp <CUCmehp@gmail.com>"
+  ],
+  "keywords": [
+    "Lazy",
+    "Loading",
+    "AngularJS"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-loader": "^1.6.4",
+    "angular-mocks": "^1.6.4",
+    "angular-scenario": "^1.6.4",
+    "requirejs": "^2.3.3",
+    "bootstrap": "^3.3.7"
+  }
+}
